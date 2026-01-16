@@ -11,7 +11,7 @@ ReversedName:=""
 for i:=0;i<len(Name);i++{
 	ReversedName=string(Name[i])+ReversedName
 }
-
+ 
 fmt.Println("Reversed Name is",ReversedName)
 
 
