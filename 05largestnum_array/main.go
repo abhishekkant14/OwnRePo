@@ -1,13 +1,19 @@
 package main
 
 import"fmt"
+
 func main(){
-	array:=[]int{10,23,24,26,25,78,56,89}
-	Largest:=array[0]
-	for i:=1;i<len(array);i++{
-		if array[i]>Largest{
-			Largest=array[i]
-		}
-	}
-	fmt.Println(Largest)
+arr:=[]int{11,24,12,45,34,55,78,89}
+
+largestNum:=arr[0]
+
+for i:=1;i<len(arr);i++{
+if arr[i]>largestNum{
+	largestNum=arr[i]
+}
+
+}
+
+fmt.Println("LargestNum",largestNum)
+
 }
